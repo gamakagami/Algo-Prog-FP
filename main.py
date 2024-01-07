@@ -533,7 +533,7 @@ win_y = 300
 level = 0
 max_levels = 2
 score = 0
-move_limit = 50
+move_limit = 40
 ca=1
 cc=1.5
 ce=2
@@ -599,6 +599,7 @@ while run:
 
 	screen.blit(bg_img, (0, 0))
 
+	#main menu
 	if main_menu == True:
 		draw_text("Heart Eater", main_font, white, 210,70)
 		if exit_button.draw():
@@ -618,6 +619,7 @@ while run:
 		cloudc+=cc
 		cloude+=ce
 
+		#resetting cloud position if over the screen
 		if clouda > cloud_end:
 			clouda = cloud_start
 		if cloudc > cloud_end:
@@ -675,6 +677,7 @@ while run:
 
 			draw_text('X ' + str(score), font_score, white, tile_size -5 , 5)
 
+			#displays restart button
 			if restart_button.draw():
 				world_data = []
 				level = 0
