@@ -545,6 +545,7 @@ cloudc = 700
 cloudd = 150
 cloud_end = 1060
 cloud_start = -60
+next_level = 1
 
 #load images
 bg_img = pygame.image.load('clo.jpeg').convert_alpha()
@@ -711,7 +712,7 @@ while run:
 				run = False
 			
 		#if player has completed the level
-		if game_over == 1:
+		if game_over == next_level:
 
 			#reset game and go to next level
 			level += 1
