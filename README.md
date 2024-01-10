@@ -9,6 +9,11 @@
 <p>level3</p>
 <img src="level3ss.png">
 
+<p>Win</p>
+<img src="winss.png">
+
+<p>lose</p>
+<img src="deadss.png">
 
 Report : <a href="https://docs.google.com/document/d/1eg89x5XTVvOSze_J61cRuVbALCphwrzh__Gug_pJYWU/edit?usp=sharing">link</a>
 
