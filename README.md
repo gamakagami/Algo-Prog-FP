@@ -1,6 +1,6 @@
 <h1>A 2D platformer based game</h1>
 
-Report : <a href="https://docs.google.com/document/d/1eg89x5XTVvOSze_J61cRuVbALCphwrzh__Gug_pJYWU/edit?usp=sharing">link</a>
+Report : <a href="https://drive.google.com/file/d/12snVafS5zr023bMirQoJ4m7rU5woCeno/view?usp=sharing">link</a>
 
 Demo : <a href="https://drive.google.com/file/d/1RZRDoZ5iO1TU-QKcSo_GTlMWvfNtS8WO/view?usp=sharing">link</a>
 
